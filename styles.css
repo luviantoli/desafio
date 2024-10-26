@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(#102735, #040404),
+    url("assets/img/banner.png");
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: auto;
+  height: 605px;
+  padding-bottom: 100px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 268px;
+  height: 268px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+
+h1 {
+  font-family: Raleway;
+  width: 434px;
+  height: 47px;
+  margin: 20px auto 10px auto;
+  font-size: 40px;
+  font-weight: 900;
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  width: 590px;
+  height: 46px;
+  margin: 10px auto 10px auto;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  width: Fixed (326px) px;
+  height: Hug (57px) px;
+  top: 473px;
+  left: 557px;
+  margin: 20px auto 20px auto;
+  background-color: transparent; /* Fundo transparente */
+  border: 2px solid #3498db; /* Borda com cor e espessura */
+  color: #3498db; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.h21 {
+  width: 477px;
+  height: 38px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 0.19em;
+  text-align: left;
+  color: #3498db;
+}
+
+.p1 {
+  width: 792px;
+  height: 38px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  color: white;
+  margin-bottom: 24px;
+}
+
+#course-content {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 525px;
+  border-bottom: 1px solid rgba(51, 168, 219, 1);
+  border-top: 1px solid rgba(51, 168, 219, 1);
+}
+.module {
+  font-family: Raleway;
+  margin: auto 10px auto 10px;
+  text-align: center;
+
+  top: 723px;
+  left: 324px;
+  gap: 24px;
+  padding: 16px 127px;
+
+  border-radius: 57px 57px 57px 57px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: rgba(37, 37, 37, 1);
+  border: 1px solid rgba(51, 168, 219, 1);
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+  color: #ffffff;
+
+  span {
+    color: #3498db;
+  }
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#transform-world {
+  background-image: url("assets/img/woman-code.png");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: black;
+  border: 1px solid rgba(51, 168, 219, 1);
+  display: flex;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 180px;
+  width: 244px;
+  height: 141px;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 47px;
+  background: transparent;
+  text-shadow: 3px 2px 0px 0px rgba(51, 168, 219, 1);
+}
+
+#professional-challenges {
+  margin-top: -5px;
+  background: black;
+}
+
+.img2 {
+  background-image: url(assets/img/professional-challenges.png);
+  background-repeat: no-repeat;
+  width: 659px;
+  height: 429px;
+  margin-top: 30px;
+  left: 390px;
+}
+
+#professional-challenges {
+  background: black;
+  font-family: Raleway;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 76px;
+  border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+.h22 {
+  color: #3498db;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.19em;
+  text-align: center;
+}
+.p3 {
+  width: 792px;
+  height: 76px;
+  margin-top: 30px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer {
+  background: black;
+  background-image: linear-gradient(#040404, #102735);
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.dio-logo {
+  background-image: url(assets/img/dio-logo.png);
+  background-repeat: no-repeat;
+}
+
+.p4 a {
+  color: #3498db;
+}
